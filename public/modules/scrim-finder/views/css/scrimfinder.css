@@ -1,0 +1,345 @@
+
+
+.scrim-headline-container{
+  color: #FF9000;
+  text-align: center;
+  border: solid;
+  border-color: #555555;
+  border-width: 1px;
+	border-radius: 5px;
+  /*background: #111111;*/
+  margin: 0 -15px 15px 15px;
+
+}
+
+.scrim-title{
+  font-size: 3em;
+}
+
+.scrim-headline {
+  margin: -10px 0 15px 0;
+}
+
+.scrim-container {
+  border: 1px solid #555555;
+	border-radius: 5px;
+  margin: 0 0 15px 0;
+  background: #111111;
+  height: 70px;
+  position:relative;
+}
+
+.scrim-delete {
+  position:absolute;
+  top: 0;
+  right: 0;
+  color: #FF7000;
+  z-index:9;
+}
+
+.scrim-container-new {
+  border: 1px solid #555555;
+	border-radius: 5px;
+  margin: 0 0 15px 0;
+  background: #111111;
+  height: 110px;
+}
+
+
+.scrim-top-line {
+  height: 7px;
+  border-top: 2px solid #777777;
+  border-bottom: 2px solid #777777;
+  margin-bottom: -5px;
+}
+
+.scrim-top-centerline {
+  margin-top:1px;
+  height:1px;
+  border-top: 1px solid;
+  border-color: inherit;
+  margin-bottom: -2em;
+}
+
+.annoying-container {
+  border-color: #66DDAA;
+  color: #66DDAA;
+  margin-top: 10px;
+  margin-bottom: -2em;
+  cursor: pointer;
+}
+
+.annoying-container-right {
+  border-color: #66DDAA;
+  color: #66DDAA;
+  margin-top: 10px;
+  margin-bottom: -2em;
+  cursor: pointer;
+}
+
+.scrim-top-button {
+  margin: auto;
+  margin-top:0.2em;
+  margin-bottom: 1em;
+  color:inherit;
+  display: block;
+  background: black;
+  width: 9em;
+  cursor:pointer;
+  text-align: center;
+  font-weight:500;
+  font-size: 2em;
+}
+
+.small-scrim-button {
+  font-size:0.7em;
+}
+
+.annoying-container:hover {
+  border-color: #FF9000;
+  color: white;
+}
+.annoying-container-right:hover {
+  border-color: #FF9000;
+  color: white;
+}
+
+.scrim-top-control-container {
+  margin: auto;
+  margin-top: 0.5em;
+  width: 750px;
+}
+
+.scrim-bit {
+  display:block;
+  background:none;
+  /*
+  border: solid;
+  border-width: 0 0 1px 1px;
+  border-color:white;
+  color: #FF9000;
+  */
+  color: #555555;
+  margin: 1px 0 1px 0;
+  white-space:nowrap;
+  overflow:hidden;
+  text-overflow: clip;
+}
+
+.pre-final-container {
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	align-items: flex-end;
+	-webkit-align-items: flex-end;
+	justify-content: space-between;
+	-webkit-justify-content: space-between;
+}
+
+.scrim-replies {
+  font-size: 0.9em;
+  color: #66DDAA;
+  text-align:right;
+  position:absolute;
+  bottom: 5px;
+  right: 5px;
+  background: #111111;
+}
+
+.scrim-replies-box {
+  border: 1px solid #777777;
+	border-radius: 5px;
+  padding: 3px;
+}
+
+.scrim-replies-final {
+  color: #777777;
+}
+
+.details {
+  float:left;
+  text-align: left;
+  background: #111111;
+}
+
+.detail-highlight {
+  /*color: #66DDAA;*/
+  color: #FF9000;
+}
+
+.detail-input {
+  background:black;
+  display:inline-block;
+  border: 1px solid #333333;
+  color: #FF9000;
+  width: 250px;
+}
+
+.detail-input:focus {
+  color: #AAAAAA;
+}
+
+.scrim-input {
+  background:black;
+  display:inline-block;
+  border: 1px solid #333333;
+  margin: 0 0 0 2px;
+  color: #555555;
+  margin-left: 5px;
+  white-space: pre-wrap;
+  width:65%;
+}
+
+.scrim-info {
+  background:none;
+  border: none;
+  margin: 0 0 0 2px;
+  color: #AAAAAA;
+  margin-left: 5px;
+  white-space:nowrap;
+  overflow:hidden;
+  text-overflow:clip;
+}
+
+
+.scrim-finalized {
+  height: 65px;
+  margin-bottom: 30px;
+  overflow:auto;
+}
+
+.scrim-desc-container {
+  width:100%;
+  margin: 10px 1px 0 0;
+}
+
+.scrim-desc {
+  width:100%;
+}
+
+.scrim-img {
+  float:left;
+  width:75px;
+  height:75px;
+  border: 1px solid #555555;
+  margin: 1px 2px 0 1px;
+  color:#FF7000;
+  background: black;
+}
+
+.instructions{
+  background: black;
+  border: solid;
+  border-width: 1px 1px 1px 1px;
+  border-color: #555555;
+	border-radius: 5px;
+  margin-bottom:1em;
+  text-wrap: break-word;
+  padding: 5px;
+  color: #FF7000;
+}
+
+.instruction-img {
+  border: 2px dashed #777777;
+  padding: 1px;
+  margin: 4px;
+}
+
+.chat-window{
+  background: #111111;
+  border: solid;
+  border-width: 1px 1px 1px 1px;
+  border-color: #555555;
+	border-radius: 5px;
+  margin:5em 0;
+  text-wrap: break-word;
+}
+
+.chat-message-container {
+  height:285px;
+  width: calc(100% - 100px);
+  text-wrap: break-word;
+  overflow-y:auto;
+}
+
+@media only screen and (min-height: 1900px) {
+  .chat-message-container {
+    height:700px;
+  }
+}
+
+@media only screen and (min-height: 1000px) {
+  .chat-message-container {
+    height:500px;
+  }
+}
+
+.chat-users {
+  color: #66DDAA;
+  font-style: italic;
+  text-align: center;
+  font-size: 0.8em;
+  padding-right: 1em;
+  border-bottom: 1px solid #333333;
+  background: black;
+  cursor: pointer;
+}
+
+.users-online {
+  font-size: 0.8em;
+  font-style: italic;
+  margin-bottom: 0.5em;
+}
+
+.chat-userlist {
+  float:right;
+  width: 100px;
+  padding: 5px;
+  background: black;
+  color: #66DDAA;
+  overflow-x: auto;
+  border-left: 1px solid #333333;
+  border-radius: 0 5px 0 0; /*actually necessary, even with border none, because container has it*/
+}
+
+.chat-bar-container {
+  border: solid;
+  border-width: 1px 0 0 0;
+  border-color: #555555;
+}
+
+.chat-bar{
+  width:100%;
+  background: black;
+  padding: 0 0 0 5px;
+  color: white;
+  border: none;
+  border-radius: 5px; /*actually necessary, even with border none, because container has it*/
+}
+
+input:focus{
+  outline:none;
+  border-color:white;
+  box-shadow:none;
+}
+
+.chat-user{
+  padding: 0 5px 0 2px;
+  font-weight: 500;
+  color: #FF9000;
+}
+
+.chat-msg{
+  color: white;
+  width:100%;
+  word-wrap: break-word;
+}
+
+.system-message {
+  font-style:italic;
+  font-size: 0.8em;
+  color:#66DDAA;
+  margin-left:3em;
+}

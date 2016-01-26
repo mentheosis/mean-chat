@@ -1,0 +1,22 @@
+<section data-ng-controller="ScrimController" ng-init="initialize()">
+
+      <div class="row">
+        <div class="col-xs-6 col-xs-offset-3">
+          <div class = "chat-window">
+            <div scroll-glue class="chat-message-container">
+              <div ng-repeat="msg in chatMessages track by $index">
+                <span class="chat-user" ng-show="msg.user != '' ">{{msg.user}}:</span>
+                <span class="chat-msg" ng-class="{'system-message': msg.user == ''}">{{msg.message}}</span>
+              </div>
+            </div>
+            <div class="chat-bar-container">
+              <form ng-submit="sendChat(chatMsg)">
+                <input class = "chat-bar" type="text" maxlength="300" ng-model="chatMsg" placeholder="Chat!">
+              </form>
+            </div>
+          </div>
+        </div >
+      </div>
+
+
+</section>
