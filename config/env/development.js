@@ -14,7 +14,7 @@ module.exports = {
 		}
 	},
 	app: {
-		title: 'eKombat - Development Environment'
+		title: 'mean chat dev'
 	},
 	mailer: {
 		from: process.env.MAILER_FROM || 'noreply@stdio.io' || 'MAILER_FROM',
